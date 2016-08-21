@@ -1,5 +1,7 @@
 # encoding: utf-8
 
+__version__ = "0.3.1"
+
 from kivy.app import App
 from kivy.uix.widget import Widget
 from kivy.uix.button import Button
