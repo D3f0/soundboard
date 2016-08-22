@@ -5,22 +5,37 @@
         orientation: 'vertical'
         spacing: 20
         padding: 20
+
+        canvas:
+            Rectangle:
+                pos: self.pos
+                size: self.size
+                source: "data/back.jpg"
+
+        # Widgets
         Label:
             text: "Meetup Soundbard"
+            font_size:  80
+
         AudioButton:
             background_normal: 'data/btn_aguanta.jpg'
             archivo: 'data/aguanta1.mp3'
-            text: "Aguntaaa"
-            font_size: 80
+            #text: "Aguntaaa"
+
         AudioButton:
+            background_normal: 'data/btn_aguanta.jpg'
             archivo: 'data/aguanta2.mp3'
-            text: "Aguntaaaaaaaaaa"
+            #text: "Aguntaaaaaaaaaa"
+
         AudioButton:
+            background_normal: 'data/btn_estoseva.jpg'
             archivo: 'data/descontrolar.mp3'
-            text: "Esto se va a descontrolar"
+            #text: "Esto se va a descontrolar"
+
         AudioButton:
+            background_normal: 'data/btn_turn.png'
             archivo: 'data/turn-down-for-what.mp3'
-            text: "Drop the mic!"
+            #text: "Drop the mic!"
 
 
 
