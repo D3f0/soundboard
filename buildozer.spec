@@ -17,6 +17,7 @@ source.include_exts = py,png,jpg,kv,atlas,*.wav,*.mp3
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
+source.include_patterns = data/*,images/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
@@ -36,7 +37,7 @@ version.filename = %(source.dir)s/main.py
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy
+requirements = kivy,python2
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -78,7 +79,7 @@ fullscreen = 1
 #android.api = 19
 
 # (int) Minimum API required
-#android.minapi = 9
+android.minapi = 19
 
 # (int) Android SDK version to use
 #android.sdk = 20
