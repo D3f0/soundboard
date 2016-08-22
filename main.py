@@ -17,7 +17,6 @@ class AudioButton(Button):
     """
     archivo = StringProperty()
     sound = None
-    font_size =  80
 
     def on_archivo(self, instancia, archivo):
         """
