@@ -6,3 +6,8 @@ Simplemente ejecutar:
 ```bash
 python main.py
 ```
+
+# Estrucutra de la aplicación
+
+* `mina.py` define:
+    - `AudioButton` un tipo de botón con una propiedad `archivo`, cuando se setea se carga el audio a través de un soundboard.
